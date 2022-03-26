@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% for album in site.albums %}
+  <a href="{{ album.url }}">
+    <img class="album" src="/assets/images/albums/{{ album.image_file }}" />
+  </a>
+{% endfor %}

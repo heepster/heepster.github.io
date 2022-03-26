@@ -252,3 +252,15 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+img.album {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  transition: transform .3s;
+  margin: 40px;
+}
+
+img.album:hover {
+  transform: scale(1.02);
+}
