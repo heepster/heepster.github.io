@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% for illustration in site.illustrations %}
+  <a href="{{ illustration.url }}">
+    <img class="illustration" src="/assets/images/illustrations/{{ illustration.preview_image_file }}" />
+  </a>
+{% endfor %}

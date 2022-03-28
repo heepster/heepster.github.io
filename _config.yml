@@ -59,3 +59,5 @@ plugins:
 collections:
   albums:
     output: true
+  illustrations:
+    output: true

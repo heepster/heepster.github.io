@@ -253,6 +253,20 @@ table {
   }
 }
 
+img.illustration {
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  transition: transform .3s;
+  margin: 80px;
+}
+
+img.illustration:hover {
+  transform: scale(1.02);
+}
+
 img.album {
   width: 400px;
   height: 400px;
@@ -264,3 +278,4 @@ img.album {
 img.album:hover {
   transform: scale(1.02);
 }
+
