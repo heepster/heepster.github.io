@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Sending Desktop Notifications from a Cron Job"
+category: linux
 ---
 
 Let’s say you have a cron job defined like this:

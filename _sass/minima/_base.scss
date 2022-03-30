@@ -283,3 +283,9 @@ a.image-link {
   text-decoration: none;
 }
 
+.category {
+  @include relative-font-size(0.6);
+  text-transform: uppercase;
+  background-color: #FCF0EE;
+  padding: 5px;
+}
