@@ -284,8 +284,13 @@ a.image-link {
 }
 
 .category {
-  @include relative-font-size(0.6);
+  @include relative-font-size(0.5);
+  font-family: Helvetica, Arial;
+  color: #FFF;
   text-transform: uppercase;
-  background-color: #FCF0EE;
-  padding: 5px;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  background-color: #3e5c85;
+  padding: 0.5em;
+  border-radius: 0.3em;
 }
