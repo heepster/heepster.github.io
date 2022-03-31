@@ -2,7 +2,7 @@
 layout: post
 title: SSH Tunnel Cheatsheet
 category: Networking
-permalink: /ssh-cheatsheet
+permalink: /ssh-tunnel
 ---
 
 <br />
