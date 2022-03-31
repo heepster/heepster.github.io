@@ -2,6 +2,7 @@
 layout: post
 title: "How does Ping work?"
 category: networking
+permalink: /ping
 ---
 
 I've always had this vague notion that `ping` checks for connectivity between two hosts.  But what does that actually mean and how does it work?
