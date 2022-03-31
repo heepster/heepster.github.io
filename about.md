@@ -27,6 +27,7 @@ I usually use Linux to make things, and, unless otherwise stated, all software m
 ### General
 * [VSCode](https://code.visualstudio.com/) & [Neovim](https://neovim.io/) -- text editors
 * [Excalidraw.com](https://excalidraw.com/) -- for diagramming
+* [Ansible](https://docs.ansible.com/) -- managing dotfiles and keeping my computers / servers (relatively) reproducible.  You can check out my ansible configs [here](https://github.com/heepster/dotfiles).
 
 <br />
 
