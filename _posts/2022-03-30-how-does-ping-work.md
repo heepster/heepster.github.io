@@ -4,11 +4,10 @@ title: "How does Ping work?"
 category: networking
 ---
 
-I've always had this vague notion that `ping` checks for connectivity between two hosts and it "operates on layer 3."  But what does that actually mean and how does it work?
-
-After some digging, here's the TL;DR:
+I've always had this vague notion that `ping` checks for connectivity between two hosts.  But what does that actually mean and how does it work?
 
 <br />
+Here's the TL;DR:
 
 ```
 Ping issues ICMP Echo Requests and waits for Echo Replies.
@@ -30,7 +29,7 @@ or
 
 <br />
 
-To understand this a bit more, let's take a step back and talk about the internet.  Whenever a network device talks to another, like when your computer talks to Google.com, it does so through a series of routers and gateways.  Packets originate from a source network device, or host, and are forwarded from gateway/router to gateway/router until that packet reaches its destination.
+To understand this a bit more, let's take a step back and talk about the internet.  Whenever a network device talks to another, like when your computer talks to Google.com, it does so through a series of routers and gateways.  Packets originate from a source network device, or host, and are forwarded from gateway/router to gateway/router until they reach their destination.
 
 ![Gateway diagram](/assets/images/posts/ping3.png)
 
