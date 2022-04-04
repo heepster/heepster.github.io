@@ -199,10 +199,17 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  @include media-query($on-palm) {
+    @include relative-font-size(0.8);
+  }
 }
 
 .post-link {
   @include relative-font-size(1);
+
+  @include media-query($on-palm) {
+    @include relative-font-size(1);
+  }
 }
 
 

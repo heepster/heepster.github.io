@@ -260,6 +260,14 @@ table.table-post-list {
   td {
     border: 0;
   }
+
+  td.post-meta {
+    width: 20%;
+    @include media-query($on-palm) {
+      width: 30%
+    }
+  }
+
 }
 
 img.illustration {
