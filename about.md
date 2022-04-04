@@ -5,17 +5,11 @@ permalink: /about/
 
 # Hi!
 
-<br />
 
 I'm Kevin and I'm a software engineer based in LA.
 
-I'm particularly interested in networking and Linux, so I'll probably write about them [here](/).
-
-<br />
-
 On my free time I like to [make music](/music) and [draw stuff](/illustration).
 
-<br />
 <br />
 
 ## Things I Use
