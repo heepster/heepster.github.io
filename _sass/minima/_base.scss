@@ -253,6 +253,15 @@ table {
   }
 }
 
+table.table-post-list {
+  width: 100%;
+  border: 0;
+
+  td {
+    border: 0;
+  }
+}
+
 img.illustration {
   max-width: 400px;
   max-height: 400px;
