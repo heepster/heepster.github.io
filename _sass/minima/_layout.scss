@@ -204,16 +204,6 @@
   }
 }
 
-.post-link {
-  @include relative-font-size(1);
-
-  @include media-query($on-palm) {
-    @include relative-font-size(1);
-  }
-}
-
-
-
 /**
  * Posts
  */
