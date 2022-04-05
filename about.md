@@ -12,7 +12,7 @@ I'm Kevin and I'm a software engineer based in LA.
 
 ## Things I Use
 
-I usually use Linux to make things, and, unless otherwise stated, all software mentioned here run on Linux -- yes, even the virtual instruments (via [Wine](https://www.winehq.org/) and [Yabridge](https://github.com/robbert-vdh/yabridge))!
+I usually use Linux to make things, and, unless otherwise stated, all software mentioned here runs on Linux -- yes, even the virtual instruments (via [Wine](https://www.winehq.org/) and [Yabridge](https://github.com/robbert-vdh/yabridge))!
 
 <br />
 
