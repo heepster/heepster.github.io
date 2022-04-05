@@ -106,9 +106,9 @@ a {
   color: $brand-color;
   text-decoration: none;
 
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
+  //&:visited {
+  //  color: darken($brand-color, 15%);
+  //}
 
   &:hover {
     color: $text-color;
@@ -266,6 +266,14 @@ table.table-post-list {
     @include media-query($on-palm) {
       width: 30%
     }
+  }
+
+  td.post-category {
+    @include relative-font-size(0.7);
+    width: 10%;
+    text-align: right;
+    color: $grey-color;
+    text-transform: uppercase;
   }
 
 }

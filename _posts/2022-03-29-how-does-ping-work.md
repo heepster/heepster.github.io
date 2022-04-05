@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How does Ping work?"
-category: networking
+category: engineering
 permalink: /ping
 ---
 

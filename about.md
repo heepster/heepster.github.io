@@ -8,8 +8,6 @@ permalink: /about/
 
 I'm Kevin and I'm a software engineer based in LA.
 
-On my free time I like to [make music](/music) and [draw stuff](/illustration).
-
 <br />
 
 ## Things I Use

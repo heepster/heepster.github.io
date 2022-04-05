@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SSH Tunnel Explained
-category: Networking
+category: engineering
 permalink: /ssh-tunnel
 ---
 
