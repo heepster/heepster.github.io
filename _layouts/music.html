@@ -2,8 +2,22 @@
 layout: default
 ---
 
+<h2>Recent Songs</h2>
+
+{% for post in site.categories.music limit:3 %}
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  <span class="post-meta">{{ post.date | date: date_format }}</span>
+  <a href={{ post.url | relative_url }}>
+    {{ post.content }}
+  </a>
+  <br />
+{% endfor %}
+
+<h2>Albums</h2>
+
 {% for album in site.albums %}
   <a class="image-link" href="{{ album.url }}">
     <img class="album" src="/assets/images/albums/{{ album.image_file }}" />
   </a>
 {% endfor %}
+

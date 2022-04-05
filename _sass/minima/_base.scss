@@ -283,11 +283,6 @@ table.table-post-list {
 }
 
 img.illustration {
-  max-width: 400px;
-  max-height: 400px;
-  width: auto;
-  height: auto;
-  border-radius: 10px;
   transition: transform .3s;
 }
 
@@ -296,9 +291,6 @@ img.illustration:hover {
 }
 
 img.album {
-  width: 400px;
-  height: 400px;
-  border-radius: 10px;
   transition: transform .3s;
   margin: 20px;
 }

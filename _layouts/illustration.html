@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% for illustration in site.illustrations %}
-  <a href="{{ illustration.url }}">
-    <img class="illustration" src="/assets/images/illustrations/{{ illustration.preview_image_file }}" />
+{% for post in site.categories.art %}
+  <a class="image-link" href={{ post.url | relative_url }}>
+    <img class="illustration" src={{ post.image_link }}></img>
   </a>
 {% endfor %}
