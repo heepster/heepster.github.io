@@ -25,7 +25,10 @@ layout: default
 
   <br />
 
-  <h4>Engineering Things</h4>
+  <h4>
+    <img class="header-img" src="/assets/images/nav/engineering.png" />
+    Engineering Things
+  </h4>
   <table class="table-post-list">
     {%- for post in site.posts -%}
       {% if post.category != 'engineering' %}
@@ -46,7 +49,10 @@ layout: default
 
 
   <br />
-  <h4>Other Stuff</h4>
+  <h4>
+    <img class="header-img" src="/assets/images/nav/other.png" />
+    Other Stuff
+  </h4>
   <table class="table-post-list">
     {%- for post in site.posts -%}
       {% if post.category == 'engineering' %}
