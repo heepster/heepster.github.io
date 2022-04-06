@@ -3,8 +3,10 @@ layout: default
 permalink: /about/
 ---
 
-# Hi!
-
+<p>
+  <img style="max-width: 80px" src="/assets/images/nav/hi.png" />
+</p>
+<br />
 
 I'm Kevin and I'm a software engineer based in LA.
 

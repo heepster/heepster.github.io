@@ -8,7 +8,9 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
+hr {
+  border: 1px solid #F6F3F3
+}
 
 /**
  * Basic styling
@@ -291,8 +293,11 @@ img.illustration:hover {
 }
 
 img.album {
+  max-width: 300px;
+  width: auto;
+  height: auto;
   transition: transform .3s;
-  margin: 20px;
+  margin: 0;
 }
 
 img.album:hover {
