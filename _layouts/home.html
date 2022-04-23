@@ -26,50 +26,23 @@ layout: default
 
   <br />
 
-  <h4>
-    <img class="header-img" src="/assets/images/nav/engineering.png" />
-    Engineering Things
-  </h4>
   <table class="table-post-list">
     {%- for post in site.posts -%}
-      {% if post.category != 'engineering' %}
-        {% continue %}
-      {% endif %}
-
       <tr>
         <td class="post-meta">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <span class="post-meta">{{ post.date | date: date_format }}</span>
         </td>
-        <td>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </td>
-      </tr>
-    {%- endfor -%}
-  </table>
 
-
-  <br />
-  <h4>
-    <img class="header-img" src="/assets/images/nav/other.png" />
-    Other Stuff
-  </h4>
-  <table class="table-post-list">
-    {%- for post in site.posts -%}
-      {% if post.category == 'engineering' %}
-        {% continue %}
-      {% endif %}
-
-      <tr>
-        <td class="post-meta">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-        </td>
         <td class="post-category">
           {{ post.category }}
         </td>
+
         <td>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          {% if post.draft %}
+            (Draft)
+          {% endif %}
         </td>
       </tr>
     {%- endfor -%}
